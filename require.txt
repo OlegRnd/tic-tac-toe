@@ -1,0 +1,24 @@
+single page app
+
+Webpack (imports/exports)
+  Babel (Конвертирует JS код версий ES5, ES6 в старый код, чтобы все браузеры понимали)
+  Scss (препроцессор css)
+  Eslint (Чистота кода, ошибки и т.д.)
+  2 Modes (2 режима сборки проекта)
+    - Dev Mode (режим разработки)
+      - Dev Server, SourceMaps, Eslint, Not minified JS and css      
+    - Prod Mode (режим продакшна)
+      - Minified code 
+  
+Git (система контроля версий)
+  - production
+    1.0.0
+    0 -----------
+  - development
+    1.0.2
+    1 ------------- + --- Pool Request
+    2 ---------------- | 
+    
+    git --version
+    https://git-scm.com/book/ru/v2/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-Git
+    .gitignore

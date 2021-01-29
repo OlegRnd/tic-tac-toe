@@ -1,0 +1,25 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Tic-Tac-Toe game JS native ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegRnd/tic-tac-toe.git"
+  },
+  "keywords": [
+    "JS",
+    "native",
+    "tic-tac-toe",
+    "game"
+  ],
+  "author": "Oleg Zaraychenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlegRnd/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/OlegRnd/tic-tac-toe#readme"
+}
