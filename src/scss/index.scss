@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+@import '~normalize.css';
+@import './zero.scss'; // обнуляющий стиль
+
+@import 'variables.scss';
+@import 'mixins.scss';
+
+@import './GP/GP__Header.scss';
+@import './GP/GP__Main.scss';
+@import './GP/GP__Footer.scss';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.GP {
+  text-align: center;
+}

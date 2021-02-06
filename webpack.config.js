@@ -54,16 +54,17 @@ module.exports = {
     port: 3000,
   },
   plugins: [
-    new ESLintWebpackPlugin(),
-    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: 'index.html',
       // удаление комментов и лишних пробелов в режиме продакшна
       minify: {
         removeComments: isProd,
         collapseWhitespace: isProd,
+        hash: true,
       },
     }),
+    new ESLintWebpackPlugin(),
+    new CleanWebpackPlugin(),
     new CopyPlugin({
       patterns: [
         {

@@ -1,0 +1,14 @@
+.GP__Main_Field {
+  border: $border;
+}
+
+.GP__Main-field-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.GP__Main-field-item {
+  border: 2px solid grey;
+  height: 50px;
+  width: 50px;
+}

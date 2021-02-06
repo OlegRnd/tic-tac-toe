@@ -1,0 +1,10 @@
+@import './GP__Main_Field.scss';
+@import './GP__Main_PlayerInfo.scss';
+
+.GP__Main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: $border;
+  height: 200px;
+}

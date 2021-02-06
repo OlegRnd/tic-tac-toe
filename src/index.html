@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico">
-  <title>Крестики Нолики</title>
-</head>
-<body> 
-  <div id="app"></div>  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <title>Крестики Нолики</title>
+  </head>
+  <body>
+    <header>Header</header>
+    <div id="app">
+      <div class="GP">
+        <div class="GP__Header">
+          <div class="GP__Header-countdown">29</div>
+          <div class="GP__Header-score">&nbsp;1:0</div>
+          <div class="GP__Header-controls">
+            <span class="material-icons GP__Header-pause">pause</span>
+            <span class="material-icons GP__Header-play">play_arrow</span>
+          </div>
+        </div>
+        <div class="GP__Main">
+          <div class="GP__Main-playerinfo"></div>
+          <div class="GP__Main-field">
+            <div class="GP__Main-field-row">
+              <div class="GP__Main-field-item"></div>
+              <div class="GP__Main-field-item"></div>
+              <div class="GP__Main-field-item"></div>
+            </div>
+            <div class="GP__Main-field-row">
+              <div class="GP__Main-field-item"></div>
+              <div class="GP__Main-field-item"></div>
+              <div class="GP__Main-field-item"></div>
+            </div>
+            <div class="GP__Main-field-row">
+              <div class="GP__Main-field-item"></div>
+              <div class="GP__Main-field-item"></div>
+              <div class="GP__Main-field-item"></div>
+            </div>
+          </div>
+          <div class="GP__Main-playerinfo"></div>
+        </div>
+        <div class="GP__Footer">
+          <button class="GP_Footer-button"></button>
+        </div>
+      </div>
+    </div>
+    <footer>footer</footer>
+  </body>
 </html>

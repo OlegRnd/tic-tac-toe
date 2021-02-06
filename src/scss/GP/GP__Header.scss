@@ -1,0 +1,36 @@
+.GP__Header {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid grey;
+  padding: 20px;
+  margin: 10px;
+  font-size: $GP__Header-font-size;
+}
+
+.GP__Header-countdown {
+  color: #c00a0a;
+  border: $border;
+  padding: $padding;
+  width: 23%;
+}
+
+.GP__Header-score {
+  border: $border;
+  padding: $padding;
+  width: 40%;
+  letter-spacing: 0.6em;
+}
+
+.GP__Header-controls {
+  border: $border;
+  padding: $padding;
+  white-space: nowrap;
+  width: 23%;
+}
+
+.GP__Header-play,
+.GP__Header-pause {
+  font-size: 90px;
+  border: $border;
+  padding: $padding;
+}
