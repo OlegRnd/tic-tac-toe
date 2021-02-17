@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <title>Крестики Нолики</title>
+  </head>
+  <body>
+    <div id="app" class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__row">
+            <div class="header__text">Игра "Крестики-Нолики"</div>
+          </div>
+        </div>
+      </header>
+
+      <div class="content unselectable">
+        <div class="container">
+          <div class="fp__header">
+            <div class="fp__header_row">
+              <div class="fp__header_text">Настройки игры</div>
+            </div>
+          </div>
+
+          <div class="fp__options">
+            <div class="fp__options_turntime">
+              Время на ход:
+              <input class="fp__options_turntime_input" value="30" /> секунд
+            </div>
+
+            <div class="fp__options_player">
+              <div class="fp__options_player1_name">Игрок 1:</div>
+              <div class="fp__options_player_select">
+                <select>
+                  <option value="Радик">Радик</option>
+                  <option value="Натали">Натали</option>
+                </select>
+              </div>
+              <div class="fp__options_player_create">
+                <button class="fp__options_player_create_btn">
+                  Создать игрока
+                </button>
+              </div>
+            </div>
+
+            <div class="fp__options_player">
+              <div class="fp__options_player1_name">Игрок 2:</div>
+              <div class="fp__options_player_select">
+                <select>
+                  <option value="Радик">Радик</option>
+                  <option value="Натали">Натали</option>
+                </select>
+              </div>
+              <div class="fp__options_player_create">
+                <button class="fp__options_player_create_btn">
+                  Создать игрока
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="fp_controls">
+            <button class="fp_controls_btn">Начать новую игру</button>
+            <button class="fp_controls_btn">Продолжить игру</button>
+          </div>
+
+          <div class="fp__records">
+            <a class="fp__records_btn" href="">Рекорды</a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__text">&copy; Oleg Z. 2021</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.gp__main {
+  padding-top: 5px;
+}
+
+.gp__main_row {
+  display: flex;
+  justify-content: space-between;
+  border: $main_border;
+}

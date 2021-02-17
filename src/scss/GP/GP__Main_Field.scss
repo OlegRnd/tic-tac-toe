@@ -1,0 +1,43 @@
+.gp__main_field {
+  display: flex;
+  width: 562px;
+  padding: 5px 0;
+}
+.gp__main_field_column {
+  flex: 0 0 33.333333%;
+  display: flex;
+  flex-direction: column;
+}
+
+.gp__main_field_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33.333333%;
+  font: $gp__main_field_font;
+  border: $main_border;
+}
+
+.selectable {
+  &:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+  &:active,
+  &.active {
+    background: green;
+  }
+}
+
+.noborder-right {
+  border-right: none;
+}
+.noborder-top {
+  border-top: none;
+}
+.noborder-bottom {
+  border-bottom: none;
+}
+.noborder-left {
+  border-left: none;
+}

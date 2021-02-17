@@ -1,0 +1,19 @@
+@mixin button($color: green) {
+  height: 30px;
+  margin: 5px 0px;
+  padding: 0px 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: $main_border;
+  font-size: larger;
+
+  &:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+
+  &:active,
+  &.active {
+    background-color: grey;
+  }
+}

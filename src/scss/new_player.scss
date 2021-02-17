@@ -1,0 +1,40 @@
+.cp {
+  max-width: 500px;
+  margin: 0px auto;
+}
+.cp__header {
+  background-color: lightgrey;
+}
+.cp__header_row {
+}
+.cp__header_text {
+  font: $gp__header_font;
+  text-align: center;
+}
+.cp__body {
+  margin: 5px 0px;
+  border: $main_border;
+}
+
+.cp__field {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+  overflow: hidden;
+
+  .cp__field_name {
+    flex: 0 0 25%;
+  }
+
+  input {
+    border: $main_border;
+  }
+}
+
+.cp_footer {
+  text-align: center;
+}
+.cp_footer_btn {
+  @include button();
+}

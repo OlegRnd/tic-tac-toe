@@ -1,0 +1,56 @@
+.gp__main_playerscores {
+  border: $main_border;
+  margin: 5px;
+}
+
+.gp__main_playerinfo_player1 {
+  border-right: $main_border;
+}
+.gp__main_playerinfo_player2 {
+  border-left: $main_border;
+}
+
+.gp__main_playerinfo {
+  width: $side_columns_width;
+  display: flex;
+  flex-direction: column;
+}
+
+.gp__main_playerfoto {
+  flex: 0 0 150px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 75px;
+  margin: 10px auto;
+}
+.gp__main_playerfoto_img {
+  height: 150px;
+}
+.gp__main_playername {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+}
+.gp__main_playersign {
+  display: flex;
+  justify-content: center;
+}
+.gp__main_playersign_body {
+  margin: 2px 0px;
+  font: $gp__header_font;
+  color: purple;
+  width: 50%;
+  text-align: center;
+  border: $main_border;
+}
+.gp__main_playerscores_list {
+  padding: 5px 0 5px 0;
+}
+
+.gp__main_playerscores_list li {
+  padding: 0px 10px 20px 10px;
+}
+
+.gp__main_playerscores_list li:last-child {
+  padding-bottom: 0px;
+}

@@ -1,0 +1,15 @@
+.gp__footer {
+  padding: 5px 0px;
+}
+
+.gp__footer_row {
+  // border: $main_border;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gp__footer_button {
+  @include button();
+}

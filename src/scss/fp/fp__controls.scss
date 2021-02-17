@@ -1,0 +1,6 @@
+.fp_controls {
+  text-align: center;
+}
+.fp_controls_btn {
+  @include button();
+}
