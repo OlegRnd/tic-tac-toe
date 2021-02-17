@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <title>Крестики Нолики</title>
+  </head>
+  <body>
+    <div id="app" class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__row">
+            <div class="header__text">Игра "Крестики-Нолики"</div>
+          </div>
+        </div>
+      </header>
+
+      <div class="content unselectable">
+        <div class="container">
+          <div class="cp">
+            <div class="cp__header">
+              <div class="cp__header_row">
+                <div class="cp__header_text">Новый игрок</div>
+              </div>
+            </div>
+
+            <div class="cp__body">
+              <div class="cp__field">
+                <div class="cp__field_name">Имя:</div>
+                <div class="cp__field_input">
+                  <input type="text" name="player_name" />
+                </div>
+              </div>
+
+              <div class="cp__field">
+                <div class="cp__field_name">Пароль:</div>
+                <div class="cp__field_input">
+                  <input type="password" name="password" />
+                </div>
+              </div>
+
+              <div class="cp__field">
+                <div class="cp__field_name">Фотография:</div>
+                <div class="cp__field_input">
+                  <input type="file" name="photo" />
+                </div>
+              </div>
+            </div>
+            <div class="cp_footer">
+              <button class="cp_footer_btn">Создать игрока</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__text">&copy; Oleg Z. 2021</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

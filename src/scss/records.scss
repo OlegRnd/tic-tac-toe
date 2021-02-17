@@ -1,0 +1,52 @@
+.records__header {
+  font: $gp__header_font;
+  text-align: center;
+  background-color: lightgrey;
+}
+.records__header_row {
+}
+.records__header_text {
+}
+
+.records_body {
+  border: $main_border;
+  margin: 5px;
+  border-bottom: none;
+}
+
+.records_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column_header,
+.column_text {
+  flex: 1 1 25%;
+  border-right: $main_border;
+  border-bottom: $main_border;
+  padding: 10px 5px;
+  text-align: center;
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.column_header {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.records__footer {
+  //border: $main_border;
+  margin: 5px;
+  text-align: center;
+}
+.records__footer_btn {
+  margin: 10px auto;
+  border: $main_border;
+  display: block;
+  width: 200px;
+  text-align: center;
+}

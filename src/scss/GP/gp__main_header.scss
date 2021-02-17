@@ -1,0 +1,69 @@
+.gp__header {
+  // margin: 10px 0 10px 0;
+}
+
+.gp__header_row {
+  display: flex;
+  justify-content: space-between;
+  border: $main_border;
+}
+.gp__header_countdown,
+.gp__header_score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gp__header_countdown_text,
+.gp__header_score_text {
+  font: 2em solid;
+}
+.gp__header_countdown_body {
+  padding: 0px 10px;
+  border: $main_border;
+  font: $gp__header_font;
+  color: red;
+}
+.gp__header_score_body {
+  font: $gp__header_font;
+  letter-spacing: 8rem;
+}
+.gp__header_countdown,
+.gp__header_controls {
+  width: $side_columns_width;
+}
+
+.gp__header_countdown {
+  border-right: $main_border;
+}
+.gp__header_controls {
+  border-left: $main_border;
+}
+
+.gp__header_controls_row {
+  display: flex;
+  justify-content: space-between;
+}
+.gp__header_controls_column {
+  flex: 0 1 50%;
+}
+
+.gp__header_controls_text {
+  font: 1.5em solid;
+  text-align: center;
+}
+
+.gp__header_controls_button {
+  & > span {
+    font: 6em solid;
+    pointer-events: none;
+  }
+  text-align: center;
+  &:active,
+  &.active {
+    color: green;
+  }
+  &:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+}

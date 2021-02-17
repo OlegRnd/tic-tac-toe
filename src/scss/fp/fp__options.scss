@@ -1,0 +1,31 @@
+.fp__options {
+  font: $fp_options_font;
+  border: $main_border;
+  margin: 5px 0px;
+}
+.fp__options_turntime {
+  padding: 5px;
+}
+.fp__options_turntime_input {
+  border: $main_border;
+  width: 40px;
+  text-align: center;
+}
+
+.fp__options_player {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+}
+
+.fp__options_player_select {
+  padding: 0px 5px;
+  width: 120px;
+}
+.fp__options_player_create {
+  padding: 0px 5px;
+}
+.fp__options_player_create_btn {
+  @include button();
+}

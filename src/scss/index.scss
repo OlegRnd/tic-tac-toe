@@ -5,14 +5,74 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 
-@import './GP/GP__Header.scss';
-@import './GP/GP__Main.scss';
-@import './GP/GP__Footer.scss';
+// @import 'gp__main_header.scss';
+// @import 'gp__main_playerinfo.scss';
+// @import 'gp__main_field.scss';
+
+// @import 'gp__footer.scss';
+
+@import './fp/fp__controls.scss';
+@import './fp/fp__header.scss';
+@import './fp/fp__options.scss';
+@import './fp/fp_records.scss';
+
+@import 'records.scss';
+
+@import 'new_player.scss';
+
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
 
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-.GP {
-  text-align: center;
+// * div {
+//   border: $main_border;
+// }
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
 }
+
+.container {
+  min-width: 1180px;
+  margin: 0px auto;
+}
+
+.header,
+.footer {
+  background-color: #f5f5f5;
+}
+.header__row,
+.footer__row {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__text {
+  font: 1.5em solid;
+}
+
+.content {
+  flex: 1 1 auto;
+  padding: 5px 0px 0px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// ------------------------------------------------------- //

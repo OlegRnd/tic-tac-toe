@@ -1,10 +1,9 @@
-@import './GP__Main_Field.scss';
-@import './GP__Main_PlayerInfo.scss';
+.gp__main {
+  padding-top: 5px;
+}
 
-.GP__Main {
+.gp__main_row {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  border: $border;
-  height: 200px;
+  justify-content: space-between;
+  border: $main_border;
 }
