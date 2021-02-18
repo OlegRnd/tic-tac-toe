@@ -2,3 +2,5 @@
 node_modules
 dist
 debug.log
+.vscode
+require.txt
