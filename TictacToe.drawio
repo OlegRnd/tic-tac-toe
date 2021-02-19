@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-11T20:37:07.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="m6E-BOkliGuPPJdG2dT_" version="14.3.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-02-19T11:57:27.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="8QBib_5ir1azW-Smpopu" version="14.4.2" type="github" pages="5">
   <diagram id="GGU_VUVXnvePO5vE7XBs" name="First Page">
     <mxGraphModel dx="868" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -305,21 +305,29 @@
       <root>
         <mxCell id="MPlXKgjc0TYZfboGs31A-0" />
         <mxCell id="MPlXKgjc0TYZfboGs31A-1" parent="MPlXKgjc0TYZfboGs31A-0" />
-        <mxCell id="MPlXKgjc0TYZfboGs31A-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MPlXKgjc0TYZfboGs31A-1" source="MPlXKgjc0TYZfboGs31A-2" target="MPlXKgjc0TYZfboGs31A-3">
+        <mxCell id="MPlXKgjc0TYZfboGs31A-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="MPlXKgjc0TYZfboGs31A-1" source="MPlXKgjc0TYZfboGs31A-2" target="MPlXKgjc0TYZfboGs31A-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPlXKgjc0TYZfboGs31A-2" value="Дизайн -макет" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="MPlXKgjc0TYZfboGs31A-1">
+        <mxCell id="MPlXKgjc0TYZfboGs31A-2" value="Дизайн -макет" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="MPlXKgjc0TYZfboGs31A-1" vertex="1">
           <mxGeometry x="320" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MPlXKgjc0TYZfboGs31A-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MPlXKgjc0TYZfboGs31A-1" source="MPlXKgjc0TYZfboGs31A-3" target="MPlXKgjc0TYZfboGs31A-5">
+        <mxCell id="MPlXKgjc0TYZfboGs31A-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="MPlXKgjc0TYZfboGs31A-1" source="MPlXKgjc0TYZfboGs31A-3" target="MPlXKgjc0TYZfboGs31A-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPlXKgjc0TYZfboGs31A-3" value="Вёрстка" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="MPlXKgjc0TYZfboGs31A-1">
+        <mxCell id="MPlXKgjc0TYZfboGs31A-3" value="Вёрстка" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="MPlXKgjc0TYZfboGs31A-1" vertex="1">
           <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MPlXKgjc0TYZfboGs31A-5" value="Роутинг" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="MPlXKgjc0TYZfboGs31A-1">
+        <mxCell id="MPlXKgjc0TYZfboGs31A-5" value="Роутинг" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="MPlXKgjc0TYZfboGs31A-1" vertex="1">
           <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EvZGNUwe1kmPrBowKTqR" name="Роутинг">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="nAdBumpKuOs7YdxdUgUP-0" />
+        <mxCell id="nAdBumpKuOs7YdxdUgUP-1" parent="nAdBumpKuOs7YdxdUgUP-0" />
       </root>
     </mxGraphModel>
   </diagram>
