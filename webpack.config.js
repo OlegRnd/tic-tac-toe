@@ -84,8 +84,8 @@ module.exports = (env, argv) => {
     },
     devtool: isDev ? 'source-map' : false,
     devServer: {
-      // hot: isDev,
-      watchContentBase: isDev, // будет работать html обновление
+      hot: isDev,
+      // watchContentBase: isDev, // будет работать html обновление
       port: 3000,
       open: true,
     },

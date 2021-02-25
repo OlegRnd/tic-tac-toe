@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
       rel="stylesheet"
     />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Крестики Нолики</title>
   </head>
   <body>
-    <div id="app" class="wrapper">111</div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__row">
+            <div class="header__links">
+              <div class="header_link"><a href="/#main">Главная</a></div>
+              <div class="header_link"><a href="/#game">Game</a></div>
+            </div>
+            <div class="header__text">Игра "Крестики-Нолики"</div>
+          </div>
+        </div>
+      </header>
+
+      <div class="content unselectable">
+        <div id="app" class="container"></div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__text">&copy; Oleg Z. 2021</div>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
