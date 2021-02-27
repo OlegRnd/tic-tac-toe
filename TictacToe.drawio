@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-27T11:31:16.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="-IH6DQBl41iVylDlegYR" version="14.4.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-27T12:17:43.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="jBwo-cwVbG44UFh4LdyE" version="14.4.3" type="github" pages="6">
   <diagram id="GGU_VUVXnvePO5vE7XBs" name="First Page">
     <mxGraphModel dx="868" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -369,6 +369,15 @@
       <root>
         <mxCell id="w7Bz8IaGY0Jx04l9PfLA-0" />
         <mxCell id="w7Bz8IaGY0Jx04l9PfLA-1" parent="w7Bz8IaGY0Jx04l9PfLA-0" />
+        <mxCell id="jAGMQEiWDjKjtioen2BN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w7Bz8IaGY0Jx04l9PfLA-1" source="jAGMQEiWDjKjtioen2BN-2" target="jAGMQEiWDjKjtioen2BN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAGMQEiWDjKjtioen2BN-2" value="Abstract &lt;b&gt;Class Page&lt;/b&gt;&lt;br&gt;&amp;nbsp;(абстрактный класс оболочка всех страниц)&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. constructor()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. destroy() - шаблон&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. render() - вызывает getroot всех компонентов страницы.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4. init() - шаблон&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5. afterRender() - шаблон&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="w7Bz8IaGY0Jx04l9PfLA-1">
+          <mxGeometry x="181" y="20" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jAGMQEiWDjKjtioen2BN-3" value="&quot;App&quot; &lt;b&gt;class Page&lt;/b&gt;&lt;br&gt;(объект конкретной страницы приложения)&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. constructor()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. init()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. getRoot() - формирование HTML кода страницы&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4. destroy() - удаление слушателей на этой странице и т.д.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5. afterRender() - какие-либо инициализации после отрисовки страницы&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="w7Bz8IaGY0Jx04l9PfLA-1">
+          <mxGeometry x="196.5" y="150" width="389" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
