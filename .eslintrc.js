@@ -12,6 +12,7 @@ module.exports = {
     'comma-dangle': 'off',
     'require-jsdoc': 'off',
     'arrow-parens': 'off',
+    'object-curly-spacing': 'off'
   },
   extends: ['eslint:recommended', 'google'],
   parserOptions: {

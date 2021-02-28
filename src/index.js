@@ -1,10 +1,13 @@
 import '@/scss/index.scss'
 
 import {Router} from '@core/Router/Router'
-import {FirstPage} from '@core/pages/FirstPage'
-import {GamePage} from '@core/pages/GamePage'
+import {MainPage} from '@/pages/MainPage'
+import {GamePage} from '@/pages/GamePage'
+import {RecordsPage} from '@/pages/RecordsPage'
+
 
 new Router('#app', {
-  dashboard: FirstPage,
-  excel: GamePage,
+  main: MainPage,
+  game: GamePage,
+  records: RecordsPage
 })

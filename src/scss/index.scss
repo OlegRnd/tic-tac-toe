@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
 @import '~normalize.css';
 @import './zero.scss'; // обнуляющий стиль
 
 @import 'variables.scss';
 @import 'mixins.scss';
 
-// @import 'gp__main_header.scss';
-// @import 'gp__main_playerinfo.scss';
-// @import 'gp__main_field.scss';
+@import './gp/gp__main_header.scss';
+@import './gp/gp__main_playerinfo.scss';
+@import './gp/gp__main_field.scss';
+@import './gp/gp__main.scss';
 
-// @import 'gp__footer.scss';
+@import './gp/gp__footer.scss';
 
 @import './fp/fp__controls.scss';
 @import './fp/fp__header.scss';
@@ -19,6 +21,7 @@
 @import 'records.scss';
 
 @import 'new_player.scss';
+@import 'loader';
 
 .unselectable {
   -webkit-touch-callout: none; /* iOS Safari */
@@ -64,6 +67,14 @@ body {
 }
 .header__text {
   font: 1.5em solid;
+}
+
+.header__links {
+  display: flex;
+}
+
+.header_link {
+  padding: 5px;
 }
 
 .content {
