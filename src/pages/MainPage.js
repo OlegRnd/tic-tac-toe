@@ -1,12 +1,23 @@
 import {Page} from '../core/Page/Page'
 
+import { createStore } from '@core/createStore'
+import { rootReducer } from '@core/redux/rootReducer'
+
 export class MainPage extends Page {
   constructor() {
     super()
     this.name = 'main'
+    this.storeSub = null
+  }
+
+  destroy() {
+    this.storeSub.unsubscribe();
   }
 
   getRoot() {
+    const store = createStore(rootReducer)
+    this.storeSub = store.subscribe(()=>{})
+
     return `
     
           <div class="fp__header">

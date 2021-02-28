@@ -1,5 +1,5 @@
 export class Page {
-  constructor(delay = 1500) {
+  constructor(delay = 1000) {
     this.delay = delay
     this.template = ''
     this.name = ''

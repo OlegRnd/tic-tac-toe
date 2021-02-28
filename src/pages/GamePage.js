@@ -6,7 +6,7 @@ export class GamePage extends Page {
     this.name = 'game'
   }
 
-  render() {
+  getRoot() {
     return `
       <div class="container">
         <div class="gp__header">
