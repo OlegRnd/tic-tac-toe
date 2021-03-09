@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T06:02:29.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="HPf462BDL-QK9UatFxsa" version="14.4.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-03-09T06:07:36.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="leB6052MqNAflkzNqM_Y" version="14.4.4" type="github" pages="9">
   <diagram id="GGU_VUVXnvePO5vE7XBs" name="First Page">
     <mxGraphModel dx="868" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -672,8 +672,8 @@
         <mxCell id="Svx8M9Tl5vN134-md7G9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Svx8M9Tl5vN134-md7G9-1" source="Svx8M9Tl5vN134-md7G9-2" target="Svx8M9Tl5vN134-md7G9-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Svx8M9Tl5vN134-md7G9-2" value="DOM Listener&lt;br&gt;(корневой класс всех компонентов)&lt;br&gt;initDOMListeners()&lt;br&gt;removeDOMListeners()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Svx8M9Tl5vN134-md7G9-1">
-          <mxGeometry x="280" y="30" width="250" height="90" as="geometry" />
+        <mxCell id="Svx8M9Tl5vN134-md7G9-2" value="DOM Listener&lt;br&gt;(корневой класс всех компонентов)&lt;br&gt;initDOMListeners()&lt;br&gt;removeDOMListeners()&lt;br&gt;&#39;input&#39; -&amp;gt; &#39;onInput&#39;&lt;br&gt;AddEventListener(&#39;event&#39;, &#39;onEvent&#39;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Svx8M9Tl5vN134-md7G9-1">
+          <mxGeometry x="210" y="30" width="390" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Svx8M9Tl5vN134-md7G9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Svx8M9Tl5vN134-md7G9-1" source="Svx8M9Tl5vN134-md7G9-4" target="Svx8M9Tl5vN134-md7G9-6">
           <mxGeometry relative="1" as="geometry" />
@@ -690,19 +690,19 @@
         <mxCell id="Svx8M9Tl5vN134-md7G9-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Svx8M9Tl5vN134-md7G9-1" source="Svx8M9Tl5vN134-md7G9-6" target="Svx8M9Tl5vN134-md7G9-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Svx8M9Tl5vN134-md7G9-6" value="Component 1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Svx8M9Tl5vN134-md7G9-1">
+        <mxCell id="Svx8M9Tl5vN134-md7G9-6" value="Component 1&lt;br&gt;- onInput()&lt;br&gt;- onClick()&lt;br&gt;...." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Svx8M9Tl5vN134-md7G9-1">
           <mxGeometry x="120" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Svx8M9Tl5vN134-md7G9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Svx8M9Tl5vN134-md7G9-1" source="Svx8M9Tl5vN134-md7G9-8" target="Svx8M9Tl5vN134-md7G9-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Svx8M9Tl5vN134-md7G9-8" value="Component 2" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Svx8M9Tl5vN134-md7G9-1">
+        <mxCell id="Svx8M9Tl5vN134-md7G9-8" value="Component 2&lt;br&gt;- onInput()&lt;br&gt;- onClick()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Svx8M9Tl5vN134-md7G9-1">
           <mxGeometry x="280" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Svx8M9Tl5vN134-md7G9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Svx8M9Tl5vN134-md7G9-1" source="Svx8M9Tl5vN134-md7G9-10" target="Svx8M9Tl5vN134-md7G9-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Svx8M9Tl5vN134-md7G9-10" value="Component N" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Svx8M9Tl5vN134-md7G9-1">
+        <mxCell id="Svx8M9Tl5vN134-md7G9-10" value="Component N&lt;br&gt;- onInput()&lt;br&gt;- onClick()&lt;br&gt;....." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Svx8M9Tl5vN134-md7G9-1">
           <mxGeometry x="560" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Svx8M9Tl5vN134-md7G9-12" value="listeners [&lt;br&gt;&#39;click&#39;, &#39;input&#39;, ...]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Svx8M9Tl5vN134-md7G9-1">
@@ -720,6 +720,7 @@
             <mxPoint x="80" y="80" as="targetPoint" />
             <Array as="points">
               <mxPoint x="40" y="376" />
+              <mxPoint x="40" y="354" />
               <mxPoint x="40" y="75" />
             </Array>
           </mxGeometry>
@@ -740,6 +741,7 @@
             <mxPoint x="130" y="440" as="targetPoint" />
             <Array as="points">
               <mxPoint x="620" y="440" />
+              <mxPoint x="300" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
