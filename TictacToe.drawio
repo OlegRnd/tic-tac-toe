@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T06:39:08.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="zXichZ9scrqBVKEMmzNd" version="14.4.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-03-11T06:47:02.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="XprtZY0hjcDHXFBjmf8a" version="14.4.5" type="github" pages="9">
   <diagram id="GGU_VUVXnvePO5vE7XBs" name="First Page">
     <mxGraphModel dx="868" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -498,7 +498,7 @@
           <mxGeometry x="660" y="25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lWWnsYLuzdHNnSasbp28-10" value="Создание игрока&lt;br&gt;Модальное окно-форма" style="rounded=0;whiteSpace=wrap;html=1;" parent="lWWnsYLuzdHNnSasbp28-1" vertex="1">
-          <mxGeometry x="630" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lWWnsYLuzdHNnSasbp28-11" value="Таймер хода" style="whiteSpace=wrap;html=1;rounded=0;" parent="lWWnsYLuzdHNnSasbp28-1" vertex="1">
           <mxGeometry x="140" y="410" width="90" height="30" as="geometry" />
@@ -531,10 +531,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lWWnsYLuzdHNnSasbp28-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="lWWnsYLuzdHNnSasbp28-1" vertex="1">
-          <mxGeometry x="-40" y="210" width="230" height="70" as="geometry" />
+          <mxGeometry x="-40" y="230" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lWWnsYLuzdHNnSasbp28-37" value="Settings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lWWnsYLuzdHNnSasbp28-1" vertex="1">
-          <mxGeometry x="-40" y="280" width="90" height="20" as="geometry" />
+          <mxGeometry x="-70" y="205" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="438Dsc7wnrwQMs6BAZcz-1" value="GPHeader" style="whiteSpace=wrap;html=1;rounded=0;" parent="lWWnsYLuzdHNnSasbp28-1" vertex="1">
           <mxGeometry x="110" y="340" width="120" height="60" as="geometry" />
@@ -544,6 +544,12 @@
         </mxCell>
         <mxCell id="438Dsc7wnrwQMs6BAZcz-9" value="GPFooter" style="whiteSpace=wrap;html=1;rounded=0;" parent="lWWnsYLuzdHNnSasbp28-1" vertex="1">
           <mxGeometry x="550" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hyCtmw1a67TpoBRxuxvz-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="lWWnsYLuzdHNnSasbp28-1">
+          <mxGeometry x="80" y="320" width="610" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="hyCtmw1a67TpoBRxuxvz-2" value="Game" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lWWnsYLuzdHNnSasbp28-1">
+          <mxGeometry x="80" y="296" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
